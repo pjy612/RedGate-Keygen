@@ -30,7 +30,8 @@ namespace Reflector_Keygen
 
             XsltArgumentList xsltArgumentList = new XsltArgumentList();
             xsltArgumentList.AddParam("version", "", 3);
-            xsltArgumentList.AddParam("edition", "", "VSPro");
+            xsltArgumentList.AddParam("edition", "", "unlimited");
+            //xsltArgumentList.AddParam("edition", "", "VSPro");
             xsltArgumentList.AddParam("userspurchased", "", 1);
 
             StringBuilder sb = new StringBuilder();
